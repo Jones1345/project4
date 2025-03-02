@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009688;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Empty Cart Message */
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Cart Table */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-table th, .cart-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #009688;
+    color: white;
+}
+
+.cart-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Delete Button */
+.delete-button {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+/* Checkout Button */
+.checkout-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.checkout-form button {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-form button:hover {
+    background-color: #00796b;
+}
+
+/* Success Message */
+.success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.checkout-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #009688;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #00796b;
+}
